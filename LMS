@@ -341,7 +341,7 @@ void showissuebooks()
     printf("*********************************Issued Book List*****************************\n\n\n");
     is=fopen("Issuebook.text","r+");
     i=0;
-    printf("\tStudent_Name\t Roll_No.\t Book_Name\t Issue_Date\n\n");
+    printf("Student_Name\t Roll_No.\t Book_Name\t Issue_Date\n\n");
     while(fread(&issu,sizeof(issu),1,is))
     {
         i++;
